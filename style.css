@@ -3,7 +3,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 body{
@@ -12,6 +12,10 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+.accent-colour{
+    color: rgb(15, 175, 75);
 }
 
 /* ! Header CSS */
@@ -24,6 +28,7 @@ header{
 .navbar{
     background-color: rgb(40, 40, 40);
     padding: 10px;
+    border-bottom: 1px solid rgb(20, 20, 20);
     display: flex;
     justify-content: space-between;
 }
@@ -62,7 +67,7 @@ header{
 
 /* Title Section CSS */
 .title{
-    min-height: 100vh;
+    height: 95vh;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -81,6 +86,10 @@ header{
 .title p{
     font-size: 20px;
     padding: 0px 20px 0px 20px;
+}
+
+.title p .accent-colour{
+    font-weight: 600;
 }
 
 .title .titlelinks{
@@ -103,9 +112,82 @@ header{
 }
 
 .arrow-down{
-    font-size: 24px;
+    font-size: 20px;
     position: absolute;
     bottom: 30px;
     left: 50%;
 }
 
+/* About Section CSS */
+.about{
+    height: 72vh;
+    background-color: rgb(40, 40, 40);
+}
+
+.about h2{
+    padding: 10px;
+    font-size: 32px;
+    font-style: italic;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+}
+
+.profile-group{
+    margin-top: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-pic{
+    margin-right: 5vw;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    display: grid;
+    place-items: center;
+    font-size: 80px;
+}
+
+.profile-group p{
+    padding: 10px;
+    width: 450px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Skills Section CSS */
+.skills{
+    height: 72vh;
+}
+
+.skills h2{
+    padding: 10px;
+    font-size: 32px;
+    font-style: italic;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+}
+
+/* Projects Section CSS */
+.projects{
+    height: 72vh;
+    background-color: rgb(40, 40, 40);
+}
+
+.projects h2{
+    padding: 10px;
+    font-size: 32px;
+    font-style: italic;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+}
+
+/* ! Footer CSS */
+footer{
+    height: 20vh;
+}
+
+/* Form CSS */
