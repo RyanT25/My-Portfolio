@@ -185,14 +185,14 @@ header{
     text-align: center;
 }
 
-.profile-group{
+.about .profile-group{
     margin-top: 12.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#profile-pic{
+.about #profile-pic{
     margin-right: 2.5vw;
     width: 300px;
     height: 300px;
@@ -203,7 +203,7 @@ header{
     font-size: 80px;
 }
 
-.profile-group p{
+.about .profile-group p{
     padding: 10px;
     width: 475px;
     height: auto;
