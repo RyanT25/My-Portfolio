@@ -173,7 +173,7 @@ header{
 
 /* About Section CSS */
 .about{
-    height: 82vh;
+    height: auto;
     background-color: rgb(40, 40, 40);
 }
 
@@ -186,14 +186,14 @@ header{
 }
 
 .about .profile-group{
-    margin-top: 12.5vh;
+    margin-top: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .about #profile-pic{
-    margin-right: 2.5vw;
+    margin-right: 50px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -205,9 +205,9 @@ header{
 
 .about .profile-group p{
     padding: 10px;
-    width: 475px;
+    width: 500px;
     height: auto;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* Skills Section CSS */
@@ -225,14 +225,13 @@ header{
 
 .skills p{
     margin-top: 50px;
-    padding: 0px 30px 0px 30px;
     font-size: 20px;
     text-align: center;
 }
 
 .skills .skills-background{
     height: auto;
-    margin: 50px 0px 70px 0px;
+    margin: 50px 0px 25px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -243,7 +242,7 @@ header{
 .skills .skills-group{
     max-width: 100%;
     height: auto;
-    margin: 20px 20px 10px 20px;
+    margin: 0px 40px 20px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,7 +276,8 @@ header{
 
 /* Projects Section CSS */
 .projects{
-    height: 92.5vh;
+    height: auto;
+    padding-bottom: 50px;
     background-color: rgb(40, 40, 40);
 }
 
@@ -289,12 +289,63 @@ header{
     text-align: center;
 }
 
+.projects .projects-background{
+    height: auto;
+    padding: 0px 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects .project-panel{
+    width: 800px;
+    height: 275px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+
+.projects h3{
+    margin: 40px 20px;
+    padding: 10px;
+    color: rgb(15, 175, 75);
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    float: left;
+}
+
+.projects p{
+    width: 400px;
+    height: 100px;
+    margin: 40px 20px;
+    padding: 10px;
+    background: rgba( 0, 0, 0, 0.5 );
+box-shadow: 0 8px 32px 0 rgba(20, 20, 20, 0.37);
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+    float: right;
+}
+
+.projects #prj-1{
+    background-image: url(Assets/WebsiteCloneImage.PNG);
+    background-size: cover;
+}
+
+.projects #prj-2{
+    background-image: url(Assets/ClickerGameImage.PNG);
+    background-size: cover;
+}
+
 /* ! Footer CSS */
 footer{
     height: 7vh;
     display: grid;
     place-items: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer .footer-text a{
