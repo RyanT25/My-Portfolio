@@ -337,12 +337,13 @@ header{
 }
 
 .projects .panel h3{
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
 .projects .panel p{
-    font-size: 14px;
-    padding: 0 50px;
+    font-size: 16px;
+    padding: 0 40px;
 }
 
 .projects .panel a{
